@@ -1,7 +1,7 @@
 // Declare the variable coinFlip
 let coinFlip
 
-// Step 2: Create a do while loop
+// Create a do while loop
 do {
     // Randomly gernerate number of coinFlip
     coinFlip = Math.round(Math.random())

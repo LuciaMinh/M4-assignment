@@ -1,6 +1,6 @@
 // Loop to prompt for a valid number
 while (true) {
-    number = parseInt(prompt('Enter a non-negative number to countdown from'));
+    number = parseInt(prompt('Enter a non-negative number to countdown from'))
 
     // Check if the user entered a valid number
     if (!isNaN(number) && number >= 0) {
@@ -12,5 +12,5 @@ while (true) {
 
 // Countdown loop
 for (let i = number; i >= 0; i--) {
-    console.log(i);
+    console.log(i)
     }
